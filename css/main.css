@@ -1,0 +1,221 @@
+/*Icons*/
+.favicon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 192px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/*Transitions*/
+.transition-in {
+  opacity: 0;
+  transform: translateX(2rem);
+}
+
+.out {
+  display: none;
+}
+
+.transition-out {
+  opacity: 0;
+  transform: translateX(-2rem);
+}
+
+.panel:target {
+  margin-top: 0%;
+  background-color: #ffcb00;
+}
+
+/*header*/
+#mainNav {
+  position: absolute;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+#mainNav .nav-item {
+  margin-left: 30px;
+  font-family: "Montserrat", sans;
+  font-weight: 300;
+}
+
+#mainNav .nav-item a {
+  color: #ffffff;
+}
+
+#mainNav .nav-item a:hover {
+  color: #ffffff;
+}
+
+#mainNav .btn {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#mainNav .btn:hover {
+  color: #222222;
+  border-color: #ffffff;
+  background: #ffffff;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.navbar-brand {
+  color: #222222;
+  border-color: #ffffff;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+  color: #222222;
+  border-color: #ffffff;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
+
+.navbar-text {
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*Body*/
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+section {
+  transition: all ease .5s;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  position: relative;
+}
+
+.section-divider {
+  position: relative;
+  width: 100%;
+}
+
+.insurance-body {
+  padding-top: 10rem;
+}
+
+.insurance-body section {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.insurance-body #mainNav {
+  background: #fff;
+  background: -moz-linear-gradient(-90deg, #fff 0%, #de4966 100%);
+  background: -webkit-linear-gradient(-90deg, #fff 0%, #de4966 100%);
+}
+
+.insurance-body .close {
+  position: relative;
+  top: -27px;
+  right: -23px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*Start*/
+#start h4, #start p, #start h3 {
+  text-align: center;
+}
+
+#start h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+#start .card-body {
+  text-align: center;
+}
+
+.background {
+  background: #ffae27;
+  background: -moz-linear-gradient(-45deg, #ffae27 0%, #de496d 100%);
+  background: -o-linear-gradient(-45deg, #ffae27 0%, #de496d 100%);
+  background: -ms-linear-gradient(-45deg, #ffae27 0%, #de496d 100%);
+  background: linear-gradient(135deg, #ffae27 0%, #de496d 100%);
+}
+
+footer {
+  margin-top: 7.5rem;
+  border-top: solid 1px #ffffff;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #868e96;
+}
